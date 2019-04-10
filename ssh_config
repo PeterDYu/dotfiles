@@ -1,0 +1,15 @@
+# UMich GitLab
+Host gitlab
+	HostName gitlab.com
+	User git
+	IdentityFile ~/.ssh/peteryu_rsa
+# CAEN
+Host mmd
+	HostName login.engin.umich.edu
+	User peteryu
+	Compression yes
+# Home media server
+Host nas
+	HostName 192.168.56.1
+	User peteryu
+	IdentityFile ~/.ssh/id_rsa
